@@ -19,7 +19,7 @@ MyCompiler/
 ## 📌 Features
 
 - Reads instructions from `instruction.txt`
-- Parses commands like `power(2,x)`
+- Parses commands like `power(3,x)`
 - Accepts user input for variables like `x`
 - Computes and displays the result
 - Modular code using utility files
@@ -31,13 +31,13 @@ MyCompiler/
 
 Example:
 ```
-power(2,x)
+power(3,x)
 ```
 
 When run:
 ```
 Enter value for x: 4
-2^4 = 16
+3^4 = 81
 ```
 
 ## 🔨 Build & Run
@@ -61,7 +61,7 @@ g++ main.cpp utils/instruction.cpp utils/compute.cpp -o compiler
 ## 📥 Sample instruction.txt
 
 ```
-power(2,x)
+power(3,x)
 ```
 
 ## 💡 Future Ideas
@@ -73,6 +73,6 @@ power(2,x)
 
 ## 👨‍💻 Made By
 
-Divya Pratap Singh  
+Pratham Malu
 B.Tech CSE, NIT Raipur 
-Roll No : 23115030
+Roll No : 23115072
