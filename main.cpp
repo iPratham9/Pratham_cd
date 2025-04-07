@@ -17,7 +17,7 @@ int main()
             std::vector<std::string> args;
             parseInstruction(line, operation, args);
 
-            if (operation == "power" && args.size() == 2)
+            if (operation == "power" && args.size() == 3)
             {
                 double base = std::stod(args[0]);
                 double exponent;
